@@ -1,0 +1,11 @@
+requests~=2.31.0
+SQLAlchemy~=2.0.29
+werkzeug~=3.0.2
+flask~=3.0.3
+
+
+для создания бд:
+Python Console:
+from app import db, app
+app.app_context().push()
+db.create_all()
